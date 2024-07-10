@@ -65,7 +65,8 @@ a {
 
 .hero_section {
   width: 998px;
-  margin: 50px auto;
+  margin: 10px auto;
+  
 }
 
 .hero_img {
@@ -73,6 +74,7 @@ a {
   height: 240px;
   display: block;
   margin: 0 auto;
+  padding-top: 20px;
 }
 
 .h1,
@@ -157,7 +159,7 @@ a {
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   line-height: 35px;
 }
 
@@ -258,7 +260,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 16px;
-  margin: 0px auto;
+  margin: 50px auto;
   padding: 40px;
   background-blend-mode: darken;
 }
