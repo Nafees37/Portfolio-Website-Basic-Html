@@ -303,3 +303,8 @@ font-weight: bolder;
 outline: none;
 cursor: pointer;
 }
+
+.footer-bottom{
+  display: flex;
+  margin: 50px auto;
+}
