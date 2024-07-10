@@ -25,9 +25,10 @@ a {
   margin: 0 auto;
 }
 
-.header_logo {
+.header_logo a {
   font-size: 30px;
   font-weight: bolder;
+  color: rgb(13, 19, 33);
 }
 
 .btn_1 {
@@ -188,6 +189,7 @@ a {
   font-weight: 800;
   text-align: left;
   padding-bottom: 15px;
+  margin-top: 10px;
 }
 
 .des {
