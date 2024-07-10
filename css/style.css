@@ -1,0 +1,305 @@
+/* Font Family */
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Azeret Mono;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.header_logo {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.btn_1 {
+  padding: 17px 24px 17px 24px;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.btn_1 .resume {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+
+}
+
+.contact-btn {
+  background: rgb(13, 19, 33);
+  color: white;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url("../assets/images/Hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  z-index: 999;
+}
+
+.hero_section {
+  width: 998px;
+  margin: 50px auto;
+
+
+}
+
+.hero_img {
+  width: 240.28px;
+  height: 240px;
+  display: block;
+  margin: 0 auto;
+}
+
+.h1,
+.p1 {
+  text-align: center;
+  margin: 24px 0px;
+}
+
+.h1 {
+
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+
+}
+
+.p1 {
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.container {
+  width: 946px;
+}
+
+.width {
+  width: 998px;
+}
+
+
+.hero2 {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 40px 50px;
+  margin: 80px auto;
+}
+
+.btn_learn {
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 10px;
+  font-size: 14px;
+
+}
+
+.btn_learn a {
+  color: black;
+}
+
+.text_img {
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.hero2_h1 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px;
+  padding-bottom: 20px;
+}
+
+.hero2_p1 {
+  color: rgb(13, 19, 33);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+
+.hero3 {
+  margin: 0 auto;
+  text-align: center;
+  width: 800px;
+}
+
+.hero3h1 {
+  font-size: 30px;
+  font-weight: 800;
+  padding-bottom: 30px;
+}
+
+.hero3p1 {
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 80px;
+
+}
+
+.youtube_video {
+  margin: 0 auto;
+}
+
+.hero4 {
+  padding-top: 80px;
+}
+
+
+.skill_box {
+  display: flex;
+  margin: 0 auto;
+  gap: 15px;
+  padding-bottom: 50px;
+}
+
+.box {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  max-width: 364px;
+  padding: 20px;
+  box-shadow: rgba(255, 76, 30, 0.05);
+}
+
+.title {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.des {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.link {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  text-decoration-line: underline;
+}
+
+.css_color {
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.js_color {
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.next_target {
+  margin: 20px auto;
+
+}
+
+.target_box {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  padding: 40px;
+  margin-bottom: 15px;
+}
+
+.target_h3 {
+  padding-bottom: 15px;
+}
+
+.target_p {
+  padding-bottom: 20px;
+}
+
+.target_link {
+  color: rgb(13, 19, 33);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.target_img {
+  width: 200px;
+}
+
+.target_img>img {
+  width: 100%;
+}
+
+.submit_box {
+  background: #0000007a url(../assets/images/handshake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  margin: 0px auto;
+  padding: 100px;
+  background-blend-mode: darken;
+}
+
+.fh2 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.fp1 {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+input[type="email"] {
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  width: 80%;
+  padding: 12px;
+}
+
+#submit{
+  border-radius: 8px;
+
+background: rgb(255, 255, 255);
+font-size: 20px;
+padding: 7px 23px;
+font-weight: bolder;
+outline: none;
+cursor: pointer;
+}
