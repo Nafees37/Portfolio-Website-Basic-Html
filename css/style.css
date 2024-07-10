@@ -13,7 +13,6 @@ html {
   font-family: Azeret Mono;
 }
 
-
 a {
   text-decoration: none;
 }
@@ -46,7 +45,6 @@ a {
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
-
 }
 
 .contact-btn {
@@ -67,8 +65,6 @@ a {
 .hero_section {
   width: 998px;
   margin: 50px auto;
-
-
 }
 
 .hero_img {
@@ -85,15 +81,12 @@ a {
 }
 
 .h1 {
-
   font-size: 48px;
   font-weight: 800;
   line-height: 68px;
-
 }
 
 .p1 {
-
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -107,7 +100,6 @@ a {
   width: 998px;
 }
 
-
 .hero2 {
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
@@ -120,7 +112,6 @@ a {
   opacity: 0.7;
   padding: 10px;
   font-size: 14px;
-
 }
 
 .btn_learn a {
@@ -131,7 +122,6 @@ a {
   padding: 60px 0;
   display: flex;
   justify-content: space-around;
-
 }
 
 .hero2_h1 {
@@ -167,7 +157,6 @@ a {
   font-size: 16px;
   font-weight: 400;
   padding-bottom: 80px;
-
 }
 
 .youtube_video {
@@ -177,7 +166,6 @@ a {
 .hero4 {
   padding-top: 80px;
 }
-
 
 .skill_box {
   display: flex;
@@ -293,18 +281,25 @@ input[type="email"] {
   padding: 12px;
 }
 
-#submit{
+#submit {
   border-radius: 8px;
-
-background: rgb(255, 255, 255);
-font-size: 20px;
-padding: 7px 23px;
-font-weight: bolder;
-outline: none;
-cursor: pointer;
+  background: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 7px 23px;
+  font-weight: bolder;
+  outline: none;
+  cursor: pointer;
 }
 
-.footer-bottom{
+.footer-bottom {
   display: flex;
   margin: 50px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fbot_P p {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
 }
